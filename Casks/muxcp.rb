@@ -3,7 +3,7 @@ cask "muxcp" do
   name "muxcp"
   desc "MCP server multiplexer — aggregate multiple MCP servers behind a single endpoint"
   homepage "https://github.com/moray95/muxcp"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "muxcp" do
   on_macos do
     on_intel do
       url "https://github.com/moray95/muxcp/releases/download/v#{version}/muxcp_#{version}_darwin_amd64.tar.gz"
-      sha256 "553b82364b4e7b572648bd9c6dd4d45ba9300d85a30ee08028316ccf64146c13"
+      sha256 "dc087acd78a8d62e7db8adac0e0fe8eb5ea8d541474da091a1c2b65b458b07d5"
     end
     on_arm do
       url "https://github.com/moray95/muxcp/releases/download/v#{version}/muxcp_#{version}_darwin_arm64.tar.gz"
-      sha256 "c299da90e6444fa1c4bdb979e58801a46642c3a1bf769b4da6ced5bf75b6b0c8"
+      sha256 "f2a801bc887f81945cf8a74e0d68eb2776bbfaf1dce1d06f5d990f7589f48a5f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/moray95/muxcp/releases/download/v#{version}/muxcp_#{version}_linux_amd64.tar.gz"
-      sha256 "3ae2f9e09dae6f02233d7e17562ce484c0f01a0a2fac3503473f10e5d13b88cb"
+      sha256 "727535245707404cd4ffd387a07c9c3991646c205c9e24013633fa21543de710"
     end
     on_arm do
       url "https://github.com/moray95/muxcp/releases/download/v#{version}/muxcp_#{version}_linux_arm64.tar.gz"
-      sha256 "b64eea46797534ccad8f1977073cef633a8acded76f60581fde2cc9b837d5f50"
+      sha256 "5a3ccfd937b8d8a0bc7158e0161d1eb4fbce3310bcd2694a7708f9cd3a8921a5"
     end
   end
 
